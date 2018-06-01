@@ -1,0 +1,17 @@
+ruby '2.5.1'
+
+source 'https://rubygems.org'
+
+group :production do
+gem 'pg'
+end
+gem 'json'
+gem 'rack-test'
+
+gem 'rake'
+gem 'rubocop'
+gem 'sinatra'
+gem 'sinatra-cross_origin'
+gem 'simplecov', require: false, group: :test
+gem 'rspec', require: false, group: :test
+gem 'simplecov-json', require: false, group: :test
