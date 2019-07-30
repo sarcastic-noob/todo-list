@@ -1,4 +1,4 @@
-#Todo list
+# Todo list
 
 This is an implementation of simple todo list in ruby
 The first class in Todo module is PgConnection used to connect to the database
